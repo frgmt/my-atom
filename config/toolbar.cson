@@ -1,0 +1,142 @@
+[
+    {
+        type: "url"
+        icon: "book"
+        url: "http://wiki.innogames.de"
+        tooltip: "Wiki"
+        style:
+            color: "#bce4f2"
+    }
+    {
+        type: "url"
+        icon: "social-octocat"
+        url: "http://gitlab.innogames.de"
+        tooltip: "Gitlab"
+        iconset: "ion"
+        style:
+            color: "#c66767"
+    }
+    {
+        type: "url"
+        icon: "social-google"
+        url: "http://google.com"
+        tooltip: "Gitlab"
+        iconset: "ion"
+        style:
+            color: "lightgreen"
+    }
+    {
+        type: "spacer"
+    }
+    {
+        type: "button"
+        icon: "document"
+        callback: "application:new-file"
+        tooltip: "New File"
+        iconset: "ion"
+    }
+    {
+        type: "button"
+        icon: "document-text"
+        callback: "application:open-file"
+        tooltip: "Open File"
+        iconset: "ion"
+    }
+    {
+        type: "button"
+        icon: "folder"
+        callback: "application:open-folder"
+        tooltip: "Open Folder"
+        iconset: "ion"
+    }
+    {
+        type: "button"
+        icon: "briefcase"
+        callback: "project-manager:toggle"
+        tooltip: "Open Project"
+    }
+    {
+        type: "button"
+        icon: "archive"
+        iconset: "ion"
+        callback: ["core:save"]
+        tooltip: "Save"
+    }
+    {
+        type: "button"
+        icon: "wand"
+        iconset: "ion"
+        callback: ["atom-beautify:beautify-editor"]
+        tooltip: "Beautify"
+        disable: ["Java"]
+    }
+    {
+        type: "spacer"
+    }
+    {
+        type: "button"
+        icon: "circuit-board"
+        callback: "git-control:toggle"
+        tooltip: "Show GitControl"
+        style:
+            color: ""
+    }
+    {
+        type: "button"
+        icon: "code-fork"
+        iconset: "fa"
+        callback: "merge-conflicts:detect"
+        tooltip: "Merge Conflicts"
+    }
+    {
+        type: "spacer"
+    }
+    {
+        type: "button"
+        icon: "columns"
+        iconset: "fa"
+        callback: ["pane:split-right"]
+        tooltip: "Split Horizontally"
+    }
+    {
+        type: "button"
+        icon: "columns fa-rotate-270"
+        iconset: "fa"
+        callback: ["pane:split-down"]
+        tooltip: "Split Vertically"
+    }
+    {
+        type: "spacer"
+    }
+    {
+        type: "button"
+        icon: "arrows-alt"
+        iconset: "fa"
+        callback: "window:toggle-full-screen"
+        tooltip: "Toggle Fullscreen"
+    }
+    {
+        type: "button"
+        icon: "sitemap"
+        iconset: "fa"
+        callback: "tree-view:toggle"
+        tooltip: "Toggle Sidebar"
+    }
+    {
+        type: "button"
+        icon: "map"
+        iconset: "ion"
+        callback: "minimap:toggle"
+        tooltip: "Toggle Sidebar"
+    }
+    {
+        type: "spacer"
+    }
+    {
+        type: "button"
+        icon: "ios-settings-strong"
+        iconset: "ion"
+        callback: "settings-view:open"
+        tooltip: "Settings"
+    }
+]

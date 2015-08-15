@@ -1,0 +1,107 @@
+"*":
+  "exception-reporting":
+    userId: "f7aa18d6-7417-32b7-f492-10af487bcb71"
+  core:
+    projectHome: "/Volumes/MilkyWay/work"
+    themes: [
+      "one-dork-ui"
+      "naturepurple-dark-syntax"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".DS_Store"
+    ]
+  editor:
+    invisibles: {}
+    preferredLineLength: 120
+    scrollSensitivity: 55
+    showInvisibles: true
+    lineHeight: 1.25
+    zoomFontWhenCtrlScrolling: true
+    softWrap: true
+    backUpBeforeSaving: true
+    fontFamily: "Source Code Pro for Powerline"
+    fontSize: 18
+    softTabs: true
+    showIndentGuide: true
+    tabLength: 2
+  "isotope-ui":
+    customBackgroundColorPicker:
+      red: 55
+      green: 7
+      blue: 56
+      alpha: 1
+    backgroundGradient: true
+    fontFamily: "Source Sans Pro"
+    spaciousMode: true
+  "autocomplete-plus": {}
+  welcome:
+    showOnStartup: false
+  linter:
+    showInfoMessages: true
+    statusBar: "Show all errors"
+    subtleLinterErrors: [
+      "phpcs"
+    ]
+  "linter-phpcs":
+    phpcsExecutablePath: "/usr/local/bin/phpcs"
+    standard: "InnoGames"
+    enableWarning: 1
+    executablePath: "/usr/local/bin/phpcs"
+  docblockr:
+    auto_add_method_tag: true
+  "atom-beautify":
+    _analyticsUserId: "38bb2d22-9667-4707-a246-692f611e3017"
+    php_level: "InnoGames"
+    css_align_assignments: true
+    css_convert_quotes: "single"
+    css_indent_char: "4"
+    css_force_indentation: true
+    css_newline_between_rules: true
+    html_end_with_newline: true
+    html_indent_char: "4"
+    html_indent_inner_html: true
+    html_wrap_line_length: 120
+    js_space_after_anon_function: true
+    beautifyEntireFileOnSave: false
+    language_ruby_default_beautifier: "Ruby Beautify"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "atom-material-ui":
+    depth: true
+    accentColor: "Purple"
+    compactTreeView: true
+    altCmdPalette: false
+    panelContrast: true
+    slimScrollbar: true
+  "tool-bar":
+    position: "Left"
+  "merge-conflicts": {}
+  pigments: {}
+  "go-plus": {}
+  "php-getters-setters": {}
+  "smart-tag-cycle":
+    patterns: {}
+  "file-icons": {}
+  "one-dark-ui":
+    layoutMode: "Spacious"
+    fontSize: 11
+  "linter-puppet-lint":
+    puppetLintExecutablePath: "/usr/local/bin/puppet-lint"
+  "apathy-theme":
+    syntaxBrightness: "70%"
+  "todo-manager": {}
+  "flex-tool-bar": {}
+  "tree-view-git-status": {}
+  "git-blame": {}
+  term2: {}
+  Termrk:
+    fontSize: "12"
+  "autoclose-html": {}
+  "autocomplete-ruby": {}
+".erb.html.text":
+  editor:
+    preferredLineLength: 120
+".ruby.source":
+  editor:
+    preferredLineLength: 120
