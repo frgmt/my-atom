@@ -8,3 +8,13 @@ mincity:
   paths: [
     "/Volumes/MilkyWay/private/mincity"
   ]
+"portal-admin":
+  title: "portal-admin"
+  paths: [
+    "/Volumes/MilkyWay/work/corporate/conversion/portal/portal-admin"
+  ]
+legal:
+  title: "legal"
+  paths: [
+    "/Volumes/MilkyWay/work/corporate/backend_legal"
+  ]

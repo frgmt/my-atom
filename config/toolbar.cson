@@ -52,7 +52,7 @@
     {
         type: "button"
         icon: "briefcase"
-        callback: "project-manager:toggle"
+        callback: "project-manager:list-projects"
         tooltip: "Open Project"
     }
     {

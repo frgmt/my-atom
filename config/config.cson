@@ -7,7 +7,6 @@
       "one-dork-ui"
       "naturepurple-dark-syntax"
     ]
-    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".DS_Store"
     ]
@@ -52,7 +51,6 @@
     auto_add_method_tag: true
   "atom-beautify":
     _analyticsUserId: "38bb2d22-9667-4707-a246-692f611e3017"
-    php_level: "InnoGames"
     css_align_assignments: true
     css_convert_quotes: "single"
     css_indent_char: "4"
@@ -65,6 +63,7 @@
     js_space_after_anon_function: true
     beautifyEntireFileOnSave: false
     language_ruby_default_beautifier: "Ruby Beautify"
+    php_cs_fixer_path: "/Users/lennart/.composer/vendor/bin/php-cs-fixer"
   "tree-view":
     hideVcsIgnoredFiles: true
   "atom-material-ui":
@@ -99,6 +98,8 @@
     fontSize: "12"
   "autoclose-html": {}
   "autocomplete-ruby": {}
+  "atom-autocomplete-php": {}
+  "linter-php": {}
 ".erb.html.text":
   editor:
     preferredLineLength: 120
